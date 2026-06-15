@@ -1,25 +1,17 @@
 package com.enrollment.domain;
 
-public  class Grade {
-    private final int studentID;
-    private final String courseCode;
-    private final double value;
-    
-    public Grade (int studentID, String courseCode, double value) {
-        this.studentID = studentID;
-        this.courseCode = courseCode;
-        this.value = value;
+public class Grade {
+    private String studentId;
+    private String subjectId;
+    private double finalGrade;
+
+    public Grade(String studentId, String subjectId, double finalGrade) {
+        this.studentId = studentId;
+        this.subjectId = subjectId;
+        this.finalGrade = finalGrade;
     }
 
-    public int getStudentID() {
-        return studentID;
-    }
-
-    public String getCourseCode() {
-        return courseCode;
-    }
-
-    public double getValue() {
-        return value;
-    }
+    public String getStudentId() { return studentId; }
+    public String getSubjectId() { return subjectId; }
+    public double getFinalGrade() { return finalGrade; }
 }

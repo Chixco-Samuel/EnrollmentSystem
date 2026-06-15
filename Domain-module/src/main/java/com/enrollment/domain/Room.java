@@ -1,19 +1,14 @@
 package com.enrollment.domain;
 
 public class Room {
-    private final String roomCode;
-    private final int capacity;
+    private String roomId;
+    private String roomNumber;
 
-    public Room (String roomCode, int capacity) {
-        this.roomCode = roomCode;
-        this.capacity = capacity;
+    public Room(String roomId, String roomNumber) {
+        this.roomId = roomId;
+        this.roomNumber = roomNumber;
     }
 
-    public String getRoomCode () {
-        return roomCode;
-    }
-
-    public int getCapacity () {
-        return capacity;
-    }
+    public String getRoomId() { return roomId; }
+    public String getRoomNumber() { return roomNumber; }
 }

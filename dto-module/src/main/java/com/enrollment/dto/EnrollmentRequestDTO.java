@@ -1,50 +1,16 @@
 package com.enrollment.dto;
 
+import java.util.List;
+
 public class EnrollmentRequestDTO {
-
     private String studentId;
-    private String courseCode;
-    private String sectionId;
+    private List<String> requestedSubjectIds;
 
-    public EnrollmentRequestDTO() {
-    }
-
-    public EnrollmentRequestDTO(String studentId, String courseCode, String sectionId) {
+    public EnrollmentRequestDTO(String studentId, List<String> requestedSubjectIds) {
         this.studentId = studentId;
-        this.courseCode = courseCode;
-        this.sectionId = sectionId;
+        this.requestedSubjectIds = requestedSubjectIds;
     }
 
-    public String getStudentId() {
-        return studentId;
-    }
-
-    public void setStudentId(String studentId) {
-        this.studentId = studentId;
-    }
-
-    public String getCourseCode() {
-        return courseCode;
-    }
-
-    public void setCourseCode(String courseCode) {
-        this.courseCode = courseCode;
-    }
-
-    public String getSectionId() {
-        return sectionId;
-    }
-
-    public void setSectionId(String sectionId) {
-        this.sectionId = sectionId;
-    }
-
-    @Override
-    public String toString() {
-        return "EnrollmentRequestDTO{" +
-                "studentId='" + studentId + '\'' +
-                ", courseCode='" + courseCode + '\'' +
-                ", sectionId='" + sectionId + '\'' +
-                '}';
-    }
+    public String getStudentId() { return studentId; }
+    public List<String> getRequestedSubjectIds() { return requestedSubjectIds; }
 }

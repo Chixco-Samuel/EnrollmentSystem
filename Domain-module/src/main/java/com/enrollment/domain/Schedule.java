@@ -1,38 +1,29 @@
 package com.enrollment.domain;
 
 public class Schedule {
-    private final String day;
-    private final String startTime;
-    private final String endTime;
+    private String id;
+    private String sectionId;
+    private String roomId;
+    private String facultyId;
+    private String subjectId; 
+    private String day;
+    private String time;
 
-    private final Faculty faculty;
-    private final Room room;
-
-    public Schedule (String day, String startTime, String endTime, Faculty faculty, Room room) {
+    public Schedule(String id, String sectionId, String roomId, String facultyId, String subjectId, String day, String time) {
+        this.id = id;
+        this.sectionId = sectionId;
+        this.roomId = roomId;
+        this.facultyId = facultyId;
+        this.subjectId = subjectId;
         this.day = day;
-        this.startTime = startTime;
-        this.endTime = endTime;
-        this.faculty = faculty;
-        this.room = room;
+        this.time = time;
     }
 
-    public String getDay() {
-        return day;
-    }
-
-    public String getStartTime() {
-        return startTime;
-    }
-
-    public String getEndTime() {
-        return endTime;
-    }
-
-    public Faculty getFaculty() {
-        return faculty;
-    }
-
-    public Room getRoom() {
-        return room;
-    }
+    public String getId() { return id; }
+    public String getSectionId() { return sectionId; }
+    public String getRoomId() { return roomId; }
+    public String getFacultyId() { return facultyId; }
+    public String getSubjectId() { return subjectId; }
+    public String getDay() { return day; }
+    public String getTime() { return time; }
 }
