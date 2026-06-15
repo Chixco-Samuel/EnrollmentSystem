@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
-    private String studentId;
-    private String name;
-    private List<String> completedCourses;
+    private final String studentId;
+    private final String name;
+    private final List<String> completedCourses;
 
     public Student(String studentId, String name) {
         this.studentId = studentId;

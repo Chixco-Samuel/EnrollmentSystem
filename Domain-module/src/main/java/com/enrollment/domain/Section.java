@@ -1,8 +1,8 @@
 package com.enrollment.domain;
 
 public class Section {
-    private String sectionId;
-    private String sectionName;
+    private final String sectionId;
+    private final String sectionName;
 
     public Section(String sectionId, String sectionName) {
         this.sectionId = sectionId;
