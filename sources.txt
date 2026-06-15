@@ -1,0 +1,16 @@
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\repository\AcademicRepository.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\repository\InMemoryAcademicRepository.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\service\ManagementScheduleService.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\service\ScheduleService.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\validation\FacultyConflictValidator.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\validation\RoomConflictValidator.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\core-module\src\main\java\com\enrollment\core\validation\ScheduleValidator.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Course.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Faculty.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Grade.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Room.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Schedule.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Section.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\Domain-module\src\main\java\com\enrollment\domain\Student.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\dto-module\src\main\java\com\enrollment\dto\EnrollmentRequestDTO.java
+C:\Users\COLLEGELAB-14\Downloads\EnrollmentSystem\dto-module\src\main\java\com\enrollment\dto\ScheduleAssignmentDTO.java
